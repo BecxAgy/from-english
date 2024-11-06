@@ -59,6 +59,7 @@ const config: Config = {
         },
 
         "blue-dark": "#004aad",
+        "blue-dark-2": "#0f2c5c",
         "blue-light": "#2381ff",
         red: "#ed1c24",
       },

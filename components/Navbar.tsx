@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between p-4">
+    <nav className="navbar">
       {/* Logo: sempre visível */}
       <Image src="/assets/logo.svg" alt="logo" width={110} height={110} />
 
@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       <div className="hidden md:block">
-        <Button className="bg-blue-light rounded-lg">Começar</Button>
+        <Button className="bg-blue-light rounded-2xl">Começar</Button>
       </div>
 
       {/* Mobile Nav: visível apenas em telas pequenas */}

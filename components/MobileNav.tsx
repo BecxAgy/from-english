@@ -9,6 +9,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { RiBarChartHorizontalLine } from "react-icons/ri";
+import { Button } from "./ui/button";
 
 const sidebarLinks = [
   { route: "#about-us", label: "Sobre nós" },
@@ -32,13 +33,13 @@ const MobileNav = () => {
 
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
-              <section className=" flex h-full flex-col gap-6 pt-16 text-black">
+              <section className=" flex h-full flex-col gap-6 pt-16 ">
                 {sidebarLinks.map((item) => {
                   return (
                     <SheetClose asChild key={item.route}>
                       <Link
                         href={item.route}
-                        className="hover:text-blue-light flex gap-4 items-center p-4 rounded-lg w-full max-w-60 text-slate-400"
+                        className="hover:text-blue-light flex gap-4 items-center p-4 rounded-lg w-full max-w-60 text-black"
                       >
                         <p className="font-semibold">{item.label}</p>
                       </Link>
@@ -47,6 +48,7 @@ const MobileNav = () => {
                 })}
               </section>
             </SheetClose>
+            <Button className="bg-blue-light rounded-lg">Começar</Button>
           </div>
         </SheetContent>
       </Sheet>
