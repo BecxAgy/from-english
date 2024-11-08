@@ -1,3 +1,4 @@
+import FeatureStartCard from "@/components/FeatureStartCard";
 import Navbar from "@/components/Navbar";
 import AboutSection from "@/components/sections/AboutSection";
 import FeatureMetodologySection from "@/components/sections/FeatureMetodologySection";
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <FeatureMetodologySection />
+      <FeatureStartCard />
     </main>
   );
 }
