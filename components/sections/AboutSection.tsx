@@ -9,12 +9,12 @@ const AboutSection = () => {
       className="py-24 grid md:grid-cols-2 sm:grid-cols-1 w-full gap-10"
     >
       <div className="space-y-6 flex flex-col justify-center">
-        <span className="text-lg font-bold  text-blue-dark uppercase">
+        <span className="text-sm font-bold  text-blue-dark uppercase">
           Sobre nós
         </span>
 
         <h2
-          className="text-6xl font-bold text-blue-dark-2
+          className="md:text-5xl text-4xl  font-bold text-blue-dark-2
         "
         >
           Quem Somos?

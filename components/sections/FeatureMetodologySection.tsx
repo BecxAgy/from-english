@@ -8,22 +8,22 @@ import { FaChess } from "react-icons/fa";
 const FeatureMetodologySection = () => {
   return (
     <section
-      id="about-us"
+      id="metodology"
       className="py-24 grid md:grid-cols-2 sm:grid-cols-1 w-full gap-10 items-center"
     >
       <div className="space-y-6 flex flex-col justify-center">
-        <span className="text-lg font-bold  text-blue-dark uppercase">
+        <span className="text-sm font-bold  text-blue-dark uppercase">
           Metodologia
         </span>
 
         <h2
-          className="text-6xl font-bold text-blue-dark-2
+          className="md:text-5xl text-4xl font-bold text-blue-dark-2
     "
         >
           Nosso Método
         </h2>
 
-        <p className=" text-black/60 text-lg mt-8">
+        <p className=" text-black/60 md:text-lg mt-8">
           As aulas são personalizadas, com foco no progresso contínuo e nos
           objetivos específicos de cada aluno, seja para crescimento
           profissional, preparação para intercâmbio ou desenvolvimento pessoal.
